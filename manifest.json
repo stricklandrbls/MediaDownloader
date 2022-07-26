@@ -1,0 +1,14 @@
+{
+    "description":"Download video files from tweet",
+    "manifest_version" : 2,
+    "name" : "Tweet-Media-Downloader",
+    "version": "1.0",
+    "permissions":[
+        "webRequest",
+        "<all_urls>",
+        "menus"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
